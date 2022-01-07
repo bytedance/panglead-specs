@@ -11,7 +11,7 @@ Pod::Spec.new do |s|
       LICENSE
     }
     s.author           = { 'chenzhuo' => 'chenzhuo.zy@bytedance.com' }
-    s.source           = { :http => "https://sf16-fe-tos-sg.i18n-pglstatp.com/obj/pangle-sdk-static-va/BUFederatedLearning/4.2.5.1-2/BUFederatedLearning.zip" }
+    s.source           = { :http => "https://sf16-fe-tos-sg.i18n-pglstatp.com/obj/pangle-sdk-static-va/BUFederatedLearning/4.2.5.1-3/BUFederatedLearning.zip" }
     s.ios.deployment_target = '9.0'
     s.requires_arc = true
     s.static_framework = true
