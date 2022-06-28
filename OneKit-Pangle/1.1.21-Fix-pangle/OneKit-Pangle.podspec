@@ -113,8 +113,8 @@ Pod::Spec.new do |s|
   
     s.subspec 'Screenshot' do |d|
       d.frameworks =  'Foundation'
-      d.source_files = 'OneKit-Pangle/Screenshot/*.h'
-      d.public_header_files = 'OneKit-Pangle/Screenshot/*.h'
+      d.source_files = 'OneKit-Pangle/Screenshot/**/*.h'
+      d.public_header_files = 'OneKit-Pangle/Screenshot/**/*.h'
       d.vendored_library = 'OneKit-Pangle/Screenshot/*.a'
     end
   
